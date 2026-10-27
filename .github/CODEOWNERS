@@ -1,0 +1,33 @@
+# Co-maintained by NVIDIA and Microsoft. See GOVERNANCE.md.
+#
+# !! PLACEHOLDER — THIS FILE ENFORCES NOTHING AS WRITTEN !!
+#
+# The two team slugs below do not exist in the NVIDIA org. GitHub silently ignores
+# CODEOWNERS entries that name a team which does not exist or lacks write access to
+# this repository, so every rule here is currently inert. Before merging:
+#
+#   1. Create (or identify) the NVIDIA-side and Microsoft-side maintainer teams and
+#      grant each write access to this repository.
+#   2. Replace the slugs below with the real ones.
+#   3. Enable branch protection on `main` with "Require review from Code Owners",
+#      and require 2 approving reviews. Without this setting the rules below are
+#      advisory only.
+#
+# Paths listed with both teams require an approving review from a maintainer at each
+# organization before merge.
+
+# Default: any maintainer may approve.
+*                       @NVIDIA/openerm-maintainers @NVIDIA/openerm-maintainers-msft
+
+# Joint artifacts — dual approval required.
+/Papers/                @NVIDIA/openerm-maintainers @NVIDIA/openerm-maintainers-msft
+/Taxonomy/              @NVIDIA/openerm-maintainers @NVIDIA/openerm-maintainers-msft
+/Evaluations/           @NVIDIA/openerm-maintainers @NVIDIA/openerm-maintainers-msft
+/Mitigations/           @NVIDIA/openerm-maintainers @NVIDIA/openerm-maintainers-msft
+
+/README.md              @NVIDIA/openerm-maintainers @NVIDIA/openerm-maintainers-msft
+/GOVERNANCE.md          @NVIDIA/openerm-maintainers @NVIDIA/openerm-maintainers-msft
+/CONTRIBUTING.md        @NVIDIA/openerm-maintainers @NVIDIA/openerm-maintainers-msft
+/CITATION.cff           @NVIDIA/openerm-maintainers @NVIDIA/openerm-maintainers-msft
+/LICENSE                @NVIDIA/openerm-maintainers @NVIDIA/openerm-maintainers-msft
+/security.md            @NVIDIA/openerm-maintainers @NVIDIA/openerm-maintainers-msft

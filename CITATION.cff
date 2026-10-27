@@ -2,11 +2,29 @@ cff-version: 1.2.0
 message: "Please cite the paper below when using this work."
 
 title: "OpenEnterpriseRiskManagementGuidance"
+abstract: >-
+  Joint Microsoft and NVIDIA guidance, taxonomy, evaluations, and mitigations for the
+  safe, secure, and trustworthy enterprise deployment of open-weight models.
 authors:
   - name: "Microsoft"
   - name: "NVIDIA"
 
-url: "https://github.com/NVIDIA/OpenERMGuidance"
+repository-code: "https://github.com/NVIDIA/OpenEnterpriseRiskManagementGuidance"
+url: "https://github.com/NVIDIA/OpenEnterpriseRiskManagementGuidance"
+license: "Apache-2.0"
+keywords:
+  - open-weight models
+  - AI risk management
+  - risk taxonomy
+  - AI governance
+  - AI safety
+  - AI security
+  - model evaluation
+  - red teaming
+  - NIST AI RMF
+  - ISO/IEC 23894
+  - ISO/IEC 42001
+  - enterprise AI deployment
 
 preferred-citation:
   type: report
@@ -38,6 +56,10 @@ preferred-citation:
       given-names: "Arun"
       affiliation: "NVIDIA"
 
+  institution:
+    name: "Microsoft and NVIDIA"
   year: 2026
   month: 10
-  url: "https://github.com/NVIDIA/OpenERMGuidance"
+  version: "1.0"
+  url: "https://github.com/NVIDIA/OpenEnterpriseRiskManagementGuidance/blob/main/Papers/Risk%20Management%20Guidance.pdf"
+  repository: "https://github.com/NVIDIA/OpenEnterpriseRiskManagementGuidance"
