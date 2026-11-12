@@ -7,8 +7,9 @@ approves what, and what "jointly approved" means for the artifacts published her
 ## Maintainers
 
 Maintainership is held by named individuals at each organization, not by the
-organizations in the abstract. The current maintainer sets are defined in
-[`CODEOWNERS`](.github/CODEOWNERS) as two GitHub teams:
+organizations in the abstract. [`CODEOWNERS`](.github/CODEOWNERS) names one GitHub
+team per organization for the maintainer sets. These teams have not been created yet,
+so the `CODEOWNERS` rules are not active:
 
 | Team | Organization | Scope |
 |---|---|---|
@@ -41,9 +42,11 @@ When in doubt, request both.
 
 ## How approval is recorded
 
-1. Changes land through pull requests. Direct pushes to `main` are disabled.
-2. `CODEOWNERS` requires review from both maintainer teams on the paths listed above;
-   branch protection requires those reviews before merge.
+1. Changes land through pull requests. Do not push directly to `main`.
+2. Before merging a change to the paths listed above, the merging maintainer confirms
+   the pull request has an approving review from a maintainer at each organization.
+   Once the `CODEOWNERS` teams exist and branch protection is enabled on `main`, GitHub
+   will enforce this; until then it is a reviewer responsibility.
 3. The approving reviews on the pull request are the record of joint approval. Approval
    given in email, chat, or a meeting is not sufficient on its own — a maintainer who
    has that approval states it in the pull request and approves there.

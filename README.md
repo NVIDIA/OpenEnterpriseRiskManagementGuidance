@@ -23,7 +23,7 @@ We encourage developers, security practitioners, researchers, and others working
 See [CONTRIBUTING.md](CONTRIBUTING.md) for what a proposal needs to include and how pull requests are reviewed.
 
 ## Maintainership
-This repository sits in the NVIDIA org and is co-maintained by NVIDIA and Microsoft. Changes to the papers, taxonomy, evaluations, and mitigations require approval from a maintainer at each organization; [CODEOWNERS](.github/CODEOWNERS) enforces this. Everything else follows ordinary single-approval review.
+This repository sits in the NVIDIA org and is co-maintained by NVIDIA and Microsoft. Changes to the papers, taxonomy, evaluations, and mitigations require approval from a maintainer at each organization before merge. [CODEOWNERS](.github/CODEOWNERS) records the intended maintainer teams; until those teams and branch protection are in place, reviewers check for both approvals before merging. Everything else follows ordinary single-approval review.
 
 [GOVERNANCE.md](GOVERNANCE.md) sets out the approval rules in full, how a paper revision is published, and how a third-party contributor becomes a maintainer.
 
