@@ -17,6 +17,15 @@ dates of the file in
 
 ---
 
+## [1.0.2] — 2026-11-25 — Enterprise model risk management appendix update
+
+### Changed
+- Enterprise Model Risk Management appendix updated to reflect revised enterprise model
+risk management guidance.
+- Appendix has been updated to include additional evals ahead of GTC DC.
+- Publication PDF regenerated and expanded from 22 to 26 pages to incorporate the
+updated appendix.
+
 ## [1.0.1] — 2026-10-27 — Evaluation recipe update
 
 ### Changed
