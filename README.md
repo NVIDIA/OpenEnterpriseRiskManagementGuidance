@@ -22,6 +22,8 @@ We encourage developers, security practitioners, researchers, and others working
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for what a proposal needs to include and how pull requests are reviewed.
 
+Cisco has released models and security tools that support risk evaluation and mitigation, including [SecureBERT 2.0](https://github.com/cisco-ai-defense/securebert2), [DefenseClaw](https://github.com/cisco-ai-defense/defenseclaw), the [Model Provenance Kit](https://github.com/cisco-ai-defense/model-provenance-kit), and the [Adversarial Hubness Detector](https://github.com/cisco-ai-defense/adversarial-hubness-detector).
+
 ## Maintainership
 This repository sits in the NVIDIA org and is co-maintained by NVIDIA and Microsoft. Changes to the papers, taxonomy, evaluations, and mitigations require approval from a maintainer at each organization before merge. [CODEOWNERS](.github/CODEOWNERS) records the intended maintainer teams; until those teams and branch protection are in place, reviewers check for both approvals before merging. Everything else follows ordinary single-approval review.
 
