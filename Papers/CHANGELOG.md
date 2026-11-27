@@ -9,12 +9,22 @@ dates of the file in
 
 | Version | Date (UTC) | Commit | Pages |
 |---|---|---|---|
+| 1.0.2 | 2026-11-25 | [`a689077`](https://github.com/NVIDIA/OpenEnterpriseRiskManagementGuidance/commit/a6890777b12bbf6e47c8f8d77953da6d437fa0a5) | 26 |
 | 1.0.1 | 2026-10-27 | [`66814f8`](https://github.com/NVIDIA/OpenEnterpriseRiskManagementGuidance/commit/66814f85ce590d54c65b48db83a497fb1f6cd92a) | 22 |
 | 1.0 | 2026-10-15 | [`cf06442`](https://github.com/NVIDIA/OpenEnterpriseRiskManagementGuidance/commit/cf06442df59758ab69d83d822ca1586d3e7dc2c4) | 22 |
 | 0.2 | 2026-10-15 | [`2c0a6c7`](https://github.com/NVIDIA/OpenEnterpriseRiskManagementGuidance/commit/2c0a6c74a2) | 22 |
 | 0.1 | 2026-10-13 | [`d1c251c`](https://github.com/NVIDIA/OpenEnterpriseRiskManagementGuidance/commit/d1c251cf54) | 23 |
 
 ---
+
+## [1.0.2] — 2026-11-25 — Enterprise model risk management appendix update
+
+### Changed
+- Enterprise Model Risk Management appendix updated to reflect revised enterprise model
+risk management guidance.
+- Appendix has been updated to include additional evals ahead of GTC DC.
+- Publication PDF regenerated and expanded from 22 to 26 pages to incorporate the
+updated appendix.
 
 ## [1.0.1] — 2026-10-27 — Evaluation recipe update
 
