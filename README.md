@@ -17,6 +17,35 @@ Maps evaluations to the risk taxonomy and will be updated regularly with open-so
 ### Mitigations
 Controls, organized by system layer (model, runtime, harness, and application).
 
+## Endorsers and Contributors
+The following organizations endorse and/or contribute to the risk taxonomy:
+
+- Afterquery
+- AI21
+- Alice
+- Applied Compute
+- Artificial Analysis
+- Cisco
+- Cohesity
+- CrowdStrike
+- Fleet AI
+- Goodfire
+- Gray Swan
+- Handshake
+- Hidden Layer
+- Hirundo
+- HuggingFace
+- Inflection
+- Mercor
+- Microsoft
+- MITRE
+- Nous Research
+- NVIDIA
+- Prime Intellect
+- Reflection
+- Scale
+- Straiker
+
 ## Contributing
 We encourage developers, security practitioners, researchers, and others working in this space to contribute evaluations that can help strengthen this shared body of work. Open a propose-evaluation issue with the risk type it addresses, the task and language it covers, its scoring method, and its known limitations. Mapping gaps and new risk types are equally welcome.
 
